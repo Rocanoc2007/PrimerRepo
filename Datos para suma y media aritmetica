@@ -12,6 +12,6 @@ Agoritmo suma_mediaAritmetica()
           mediaAritmetica de tipo real
           suma = dato1 + dato2 + dato3 + dato4
           mediaAritmetica = suma / 4
-          Escribir " La suma es:" , suma
-          Escribir " La Media aritmetica es:" , mediaAritmetica
+          Escribir "La suma es:" , suma
+          Escribir "La Media aritmetica es:" , mediaAritmetica
     Fin
