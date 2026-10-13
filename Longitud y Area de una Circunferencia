@@ -1,13 +1,13 @@
 Algoritmo longitud_Area_Circunferencia()
     Inicio
-          Escribir " Ingrese diámetro de la circunferencia"
+          Escribir "Ingrese diámetro de la circunferencia"
           Leer diámetro de tipo real
-          Escribir " Ingrese radio de la circunferencia"
+          Escribir "Ingrese radio de la circunferencia"
           Leer radio de tipo real
           longitud de tipo real
           Area de tipo real
           longitud = 3,1416 * diámetro
           Area = 3,1416 * radio
-          Escribir " La longitud es:", longitud
-          Escribir " El Area es:", Area
+          Escribir "La longitud es:", longitud
+          Escribir "El Area es:", Area
     Fin
