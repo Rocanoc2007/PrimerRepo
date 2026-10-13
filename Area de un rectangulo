@@ -6,5 +6,5 @@ Algoritmo areaRectangulo()
           Leer altura de tipo real
           área de tipo real
           área = base * altura
-          Escribir " El area es:", área
+          Escribir "El area es:", área
     Fin
