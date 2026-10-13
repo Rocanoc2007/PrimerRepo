@@ -6,4 +6,5 @@ Algoritmo areaTriangulo()
           Leer altura de tipo real
           área de tipo real
           área = base * altura / 2
+          Escribir " El area es:", área
     Fin
