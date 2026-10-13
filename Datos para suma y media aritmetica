@@ -1,12 +1,12 @@
 Agoritmo suma_mediaAritmetica()
     Inicio
-          Escribir " Ingrese dato 1 "
+          Escribir "Ingrese dato 1"
           Leer dato1 de tipo entero
-          Escribir " Ingrese dato 2 "
+          Escribir "Ingrese dato 2"
           Leer dato2 de tipo entero
-          Escribir " Ingrese dato 3 "
+          Escribir "Ingrese dato 3"
           Leer dato3 de tipo entero
-          Escribir " Ingrese dato 4 "
+          Escribir "Ingrese dato 4"
           Leer dato4 de tipo entero
           suma de tipo entero
           mediaAritmetica de tipo real
