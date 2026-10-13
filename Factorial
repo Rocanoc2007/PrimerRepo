@@ -1,3 +1,7 @@
 Algoritmo factorial()
     Inicio
           Escribir "Ingrese un numero"
+          Leer n de tipo entero
+          factorial de tipo entero
+          Si n > n entonces
+            factorial = n
