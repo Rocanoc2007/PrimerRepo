@@ -1,1 +1,9 @@
-
+Algoritmo areaTriangulo()
+    Inicio
+          Escribir "Ingrese base del triángulo"
+          Leer base de tipo real
+          Escribir "Ingrese altura del triángulo"
+          Leer altura de tipo real
+          área de tipo real
+          área = base * altura / 2
+    Fin
