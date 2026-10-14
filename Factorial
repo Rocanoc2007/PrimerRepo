@@ -1,7 +1,16 @@
 Algoritmo factorial()
-    Inicio
-          Escribir "Ingrese un numero"
-          Leer n de tipo entero
-          factorial de tipo entero
-          Si n > n entonces
-            factorial = n
+Inicio
+    Escribir "Ingrese un número"
+    Leer n de tipo entero
+    factorial de tipo entero
+    factorial = 1
+    Si n >= 0 entonces
+        Mientras n > 1 hacer
+            factorial = factorial * n
+            n = n - 1
+        FinMientras
+        Escribir factorial
+    Sino
+        Escribir "Número no válido"
+    FinSi
+Fin
