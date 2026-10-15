@@ -1,6 +1,8 @@
 Algoritmo longitud_Area_Circunferencia()
     Inicio
           Definir diámetro ,radio ,longitud ,Area como real
+          Area = 0
+          longitud = 0
           Escribir "Ingrese diámetro de la circunferencia"
           Leer diámetro
           Escribir "Ingrese radio de la circunferencia"
