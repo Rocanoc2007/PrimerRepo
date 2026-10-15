@@ -1,8 +1,8 @@
 Algoritmo factorial()
 Inicio
+    Denir n , factorial como entero
     Escribir "Ingrese un número"
-    Leer n de tipo entero
-    factorial de tipo entero
+    Leer n 
     factorial = 1
     Si n >= 0 entonces
         Mientras n > 1 hacer
