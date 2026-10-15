@@ -8,18 +8,18 @@ Algoritmo estadoEstudiante()
     Leer AU
     Escribir "Ingrese nota APE"
     Leer APE
-      Si ACD <= 10 entonces
-        Escriir "Ingrese nuevamente la nota"
-      SiNo 
+      Si ACD >= 0 y <= 10 entonces
         ACD = ACD * 0.3
-      Si AU <= 10 entonces
-        Escriir "Ingrese nuevamente la nota"
-      SiNo
+      SiNo 
+        Escribir "Ingrese nuevamente la nota"
+      Si AU >= 0 y <= 10 entonces 
         AU = AU * 0.3
-      Si APE <= 10 entonces
-        Escriir "Ingrese nuevamente la nota"
       SiNo
+        Escribir "Ingrese nuevamente la nota"
+      Si APE >= 0 y <= 10 entonces
         APE = APE * 0.4
+      SiNo
+        Escribir "Ingrese nuevamente la nota"
       FinSi
   ` promeio = ACD + AU + APE
       Si promedio >= 7 entonces
