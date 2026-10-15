@@ -8,13 +8,23 @@ Algoritmo estadoEstudiante()
     Leer AU
     Escribir "Ingrese nota APE"
     Leer APE
-    ACD = ACD * 0.3
-    AU = AU * 0.3
-    APE = APE * 0.4
+      Si ACD <= 10 entonces
+        Escriir "Ingrese nuevamente la nota"
+      SiNo 
+        ACD = ACD * 0.3
+      Si AU <= 10 entonces
+        Escriir "Ingrese nuevamente la nota"
+      SiNo
+        AU = AU * 0.3
+      Si APE <= 10 entonces
+        Escriir "Ingrese nuevamente la nota"
+      SiNo
+        APE = APE * 0.4
+      FinSi
   ` promeio = ACD + AU + APE
       Si promedio >= 7 entonces
           Escribir "Estudiante Aprobado"
       SiNo
           Escibir "Estudiante reprobado"
-      Fin si
+      Fin Si
   Fin
