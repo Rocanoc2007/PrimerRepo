@@ -1,6 +1,7 @@
 Algoritmo areaRectangulo()
     Inicio
           Definir base, altura, área como decimal
+          área = 0
           Escribir "Ingrese base del rectángulo"
           Leer base 
           Escribir "Ingrese altura del rectángulo"
