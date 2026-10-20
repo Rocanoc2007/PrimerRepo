@@ -1,6 +1,6 @@
 Algoritmo AreaPerimetro()
   Inicio
-    Definir largo, ancho, area, perimtro como decimal
+    Definir largo, ancho, area, perimetro como decimal
     Escribir "Ingrese largo del terreno"
     Leer largo
     Escribir "Ingrese ancho del terreno"
