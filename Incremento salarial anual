@@ -1,0 +1,12 @@
+Algoritmo IncrementoSalarial()
+Inicio
+    Definir salario Como Real
+    Definir año Como Entero
+    salario <- 1500
+
+    Para año <- 1 Hasta 6 Hacer
+        salario <- salario * 1.10
+        Escribir "Salario del año ", año, ": $", salario
+    FinPara
+    Escribir "Salario final: $", salario
+Fin
