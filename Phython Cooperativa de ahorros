@@ -1,0 +1,3 @@
+#PrestamoConAbonoExtraordinario
+#Entrada datos
+montoPrestamo=float(input("Ingrese el monto del préstamo: ")
