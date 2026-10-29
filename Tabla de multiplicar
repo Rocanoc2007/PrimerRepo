@@ -1,10 +1,15 @@
-Algoritmo TablaMultiplicar
+Algoritmo TablaMultiplicar()
 Inicio
     Definir K, i, resultado Como Entero
     Escribir "Ingrese un numero entero:"
     Leer K
-    Para i <- 1 Hasta 10 Hacer
+    // Inicializar el contador
+    i <- 1
+    // Repetir mientras i sea menor o igual a 10
+    Mientras i <= 10 Hacer
         resultado <- K * i
         Escribir K, " x ", i, " = ", resultado
-    FinPara
+        // Incrementar el contador
+        i <- i + 1
+    FinMientras
 Fin
